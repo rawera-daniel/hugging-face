@@ -4,7 +4,7 @@
 
 @layer components {
   .container {
-    min-width: 100%;
+    max-width: 104rem;
     margin-right: auto;
     margin-left: auto;
   }

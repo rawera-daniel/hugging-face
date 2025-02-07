@@ -1,26 +1,9 @@
 import { TfiArrowCircleRight } from "react-icons/tfi";
 
-import { IoIosCube } from "react-icons/io";
-import { MdGridView } from "react-icons/md";
-import { PiDatabaseThin } from "react-icons/pi";
-import TrendBox from "./_components/TrendBox";
-import TrendDownload from "./_components/TrendDownload";
-import TrendHead from "./_components/TrendHead";
-import TrendLike from "./_components/TrendLike";
-import TrendLink from "./_components/TrendLink";
-import TrendStatBox from "./_components/TrendStatBox";
-import TrendTitle from "./_components/TrendTitle";
-
 import models from "@/public/models.png";
 import Image from "next/image";
 import Link from "next/link";
-import { HiArrowDownTray } from "react-icons/hi2";
-import { CiHeart } from "react-icons/ci";
-import SpacesBox from "./_components/SpacesBox";
-import SpaceHead from "./_components/SpaceHead";
-import SpaceLike from "./_components/SpaceLike";
-import SpaceMessage from "./_components/SpaceMessage";
-import SpaceTitle from "./_components/SpaceTitle";
+import MLComponent from "./_components/MLComponent";
 import TrendWeek from "./_components/TrendWeek";
 
 export default function Home() {
@@ -70,6 +53,8 @@ export default function Home() {
         </div>
       </section>
       <TrendWeek />
+
+      <MLComponent />
     </div>
   );
 }

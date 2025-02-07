@@ -23,7 +23,7 @@ export default function MLComponent() {
           </p>
         </div>
         <div className="grid grid-cols-3 max-w-[90rem] gap-12 mx-auto">
-          <MLbox colStart="1" colEnd="3">
+          <div className="border rounded-xl h-[30rem] border-gray-300 col-[1/3] flex flex-col shadow-sm">
             <MLMinBox>
               <MLhead>
                 The collaboration platform
@@ -42,7 +42,8 @@ export default function MLComponent() {
                 alt="account display"
               />
             </MLimageBox>
-          </MLbox>
+          </div>
+
           <MLbox>
             <MLMinBox>
               <MLhead>
@@ -77,7 +78,8 @@ export default function MLComponent() {
               />
             </MLimageBox>
           </MLbox>
-          <MLbox colStart="2" colEnd="-1">
+
+          <div className="border rounded-xl h-[30rem] border-gray-300 col-[2/-1] flex flex-col shadow-sm">
             <MLMinBox>
               <MLhead>
                 Build your portfolio
@@ -95,7 +97,7 @@ export default function MLComponent() {
                 alt="younes profile"
               />
             </MLimageBox>
-          </MLbox>
+          </div>
         </div>
       </div>
     </section>
